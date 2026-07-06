@@ -5,37 +5,36 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-brightgreen)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)
 
-## Deskripsi Project
-Project ini adalah analisis data komprehensif dari dataset **Amazon Sales Report** yang berisi lebih dari 128.900 baris data transaksi e-commerce. Tujuan utama analisis ini adalah untuk mengekstrak *valuable insights* guna meningkatkan efisiensi operasional, mengoptimalkan proses penjualan, dan memaksimalkan *customer satisfaction* di platform Amazon.
+## Tentang Project Ini
+Halo semuanya! Jadi di project ini gue bikin analisis data lengkap banget dari dataset Amazon Sales Report. Datanya lumayan gede nih, ada lebih dari 128 ribu baris transaksi e-commerce. Intinya sih project ini dibuat buat nyari tahu insight menarik yang bisa dipake buat ningkatin efisiensi operasional, bikin jualan makin lancar, dan pastinya bikin pelanggan Amazon makin puas.
 
-## 🎯 Objektif Analisis
-Analisis ini dirancang untuk menjawab beberapa pertanyaan krusial dalam bisnis e-commerce:
-1. **Sales Distribution**: Kategori produk apa yang memiliki performa tertinggi?
-2. **Size vs Quantity**: Bagaimana korelasi antara ukuran produk dengan jumlah yang terjual?
-3. **Courier Impact**: Sejauh mana layanan kurir memengaruhi status pengiriman dan proses penjualan secara keseluruhan?
-4. **Order Status Relationship**: Bagaimana hubungan antara status pengiriman dengan keberhasilan penjualan?
-5. **Geographical Insights**: Bagaimana variasi penjualan di berbagai kota dan negara bagian (state) yang bisa digunakan untuk penargetan marketing?
-6. **B2B vs B2C**: Seberapa besar proporsi pendapatan yang dihasilkan dari transaksi antar bisnis (B2B) dibandingkan konsumen biasa (B2C)?
+## Tujuan Analisis
+Project ini dibikin buat jawab beberapa pertanyaan penting di dunia jualan online:
+1. **Sebaran Penjualan**: Kategori barang apa sih yang paling laku keras?
+2. **Ukuran vs Jumlah**: Ada ngaruhnya ga sih ukuran baju sama jumlah yang kejual?
+3. **Pengaruh Kurir**: Seberapa ngaruh kurir pengiriman ke suksesnya jualan kita?
+4. **Status Pesanan**: Apa hubungannya status pengiriman sama jualan yang sukses?
+5. **Geografis**: Kota atau daerah mana aja yang paling banyak belanjanya biar kita bisa atur strategi marketing yang pas?
+6. **B2B vs B2C**: Banyakan mana duit yang masuk dari pelanggan kantoran (B2B) dibandingin pelanggan biasa (B2C)?
 
-## 📊 Hasil dan Temuan Utama
-- **Kategori Dominan**: Produk `Set` dan `kurta` menyumbang porsi terbesar (sekitar 78%) dari total pesanan.
-- **Ukuran Terpopuler**: Ukuran **M** memimpin dengan jumlah pesanan terbanyak, diikuti erat oleh L dan XL.
-- **Top Shipping Locations**: Negara bagian **Maharashtra** dan **Karnataka**, dengan kota teratas **Bengaluru**, **Hyderabad**, dan **Mumbai** merupakan pasar paling menguntungkan.
-- **B2B Analytics**: Meskipun pelanggan B2B hanya menyumbang sekitar 0.68% dari total transaksi, rata-rata *order amount* mereka (INR 698.23) secara signifikan lebih tinggi daripada pembeli B2C (INR 645.57).
-- **Fulfilment**: Pengiriman menggunakan layanan pemenuhan (fulfilment) dari Amazon menguasai hampir 70% pesanan dibandingkan Merchant secara langsung.
+## Hasil Temuan
+* **Kategori Paling Laku**: Baju Set sama Kurta itu paling banyak dibeli, nyumbang sekitar 78 persen dari total pesanan.
+* **Ukuran Paling Dicari**: Ukuran M itu juaranya, terus diikutin ketat sama L dan XL.
+* **Lokasi Pengiriman Terbanyak**: Daerah Maharashtra sama Karnataka jadi langganan banget, apalagi kota Bengaluru, Hyderabad, dan Mumbai. Ini pasar yang paling cuan.
+* **Fakta B2B**: Walaupun pembeli kantoran (B2B) itu dikit banget cuma sekitar 0.68 persen dari total pesanan, tapi rata-rata mereka kalau belanja ngabisin duit lebih banyak (INR 698.23) dibanding pembeli biasa (INR 645.57).
+* **Pengiriman**: Sekitar 70 persen pesanan dikirim langsung pake layanan Amazon dibandingin seller yang kirim sendiri.
 
-## 🛠️ Tech Stack
-- **Python** - Bahasa pemrograman utama
-- **Pandas & NumPy** - Pembersihan dan manipulasi data
-- **Matplotlib & Seaborn** - Visualisasi data profesional
-- **Jupyter Notebook** - Lingkungan analisis interaktif
+## Tech Stack yang Dipake
+* **Python**: Bahasa andalan buat ngodingnya.
+* **Pandas & NumPy**: Buat bersihin dan ngolah datanya biar rapi.
+* **Matplotlib & Seaborn**: Buat bikin grafik dan visualisasi yang kece.
+* **Jupyter Notebook**: Tempat nulis kode dan liat hasilnya secara langsung.
 
-## 📂 Struktur Repositori
-- `Amazon_Sales_Analysis.ipynb`: File Jupyter Notebook utama yang berisi seluruh kode analisis dan grafik visualisasi.
-- `data/`: Folder yang memuat dataset asli `Amazon Sale Report.csv` (harus diunduh secara terpisah dari Kaggle).
+## Isi Repositori Ini
+* `Amazon_Sales_Analysis.ipynb`: File utama Jupyter Notebook yang isinya semua kode analisis dan grafik grafiknya.
+* `data/`: Folder yang isinya dataset asli `Amazon Sale Report.csv` yang dipake di project ini.
 
-## 🚀 Cara Menjalankan
-1. Clone repositori ini.
-2. Unduh dataset dari [Kaggle](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data).
-3. Ekstrak file CSV ke dalam folder `data/` dengan nama `Amazon Sale Report.csv`.
-4. Jalankan notebook `Amazon_Sales_Analysis.ipynb` dari Jupyter Lab atau Jupyter Notebook.
+## Cara Jalaninnya
+1. Clone dulu repositori ini ke laptop lu.
+2. Buka dan jalanin file `Amazon_Sales_Analysis.ipynb` pake Jupyter Lab atau Jupyter Notebook.
+3. Tinggal run aja semua cell nya buat liat proses sama hasil analisisnya.
