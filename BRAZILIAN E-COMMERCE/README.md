@@ -6,7 +6,7 @@ Proyek ini bertujuan untuk menganalisis kinerja penjualan, logistik, metode pemb
 
 File utama dalam analisis ini adalah **Brazilian_Ecommerce_Analysis.ipynb** yang menyajikan visualisasi data komprehensif terkait operasional e-commerce.
 
-## Hasil Analisis Utama
+## Hasil Analisis
 
 Berdasarkan pengolahan data, ditemukan beberapa wawasan bisnis yang signifikan:
 
