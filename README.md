@@ -6,7 +6,7 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)
 
 ## Tentang Proyek Ini
-Selamat datang! Pada proyek ini, saya menyusun analisis data yang komprehensif menggunakan dataset Amazon Sales Report. Dataset yang digunakan cukup besar, mencakup lebih dari 128.000 baris data transaksi e-commerce. Tujuan utama dari proyek ini adalah untuk menemukan berbagai wawasan penting yang dapat dimanfaatkan untuk meningkatkan efisiensi operasional, melancarkan proses penjualan, serta meningkatkan kepuasan pelanggan di platform Amazon.
+Pada proyek ini, saya menyusun analisis data yang komprehensif menggunakan dataset Amazon Sales Report. Dataset yang digunakan cukup besar, mencakup lebih dari 128.000 baris data transaksi e-commerce. Tujuan utama dari proyek ini adalah untuk menemukan berbagai wawasan penting yang dapat dimanfaatkan untuk meningkatkan efisiensi operasional, melancarkan proses penjualan, serta meningkatkan kepuasan pelanggan di platform Amazon.
 
 ## Tujuan Analisis
 Proyek ini disusun untuk menjawab beberapa pertanyaan penting dalam bisnis e-commerce, yaitu:
