@@ -4,19 +4,30 @@ Dataset: Olist Public Dataset (Kaggle)
 
 Proyek ini bertujuan untuk menganalisis kinerja penjualan, logistik, metode pembayaran, dan kepuasan pelanggan dari platform e-commerce terbesar di Brasil (Olist). Analisis ini melibatkan proses penggabungan 9 dataset relasional yang terpisah.
 
-Terdapat dua versi analisis dalam repositori ini:
-1. **Brazilian_Ecommerce_Analysis.ipynb** (Versi Standar)
-   Menyajikan analisis ringkas mengenai demografi pelanggan, kinerja pengiriman, dan preferensi metode pembayaran.
+File utama dalam analisis ini adalah **Brazilian_Ecommerce_Analysis.ipynb** yang menyajikan visualisasi data komprehensif terkait operasional e-commerce.
 
-2. **Brazilian_Ecommerce_Analysis_v2.ipynb** (Versi Mendalam)
-   Menyajikan analisis yang lebih komprehensif, mencakup analisis tren bulanan, pola waktu pembelian, evaluasi kategori produk, pemeringkatan performa penjual (seller), serta korelasi antar variabel operasional.
+## Hasil Analisis Utama
+
+Berdasarkan pengolahan data, ditemukan beberapa wawasan bisnis yang signifikan:
+
+1. **Distribusi Pemesanan (Geospasial)**
+   Negara bagian São Paulo (SP) mendominasi jumlah pemesanan secara signifikan dibandingkan wilayah lain, menjadikannya pasar terbesar dan terpenting bagi Olist.
+
+2. **Kinerja Pengiriman Logistik**
+   Sebagian besar proses pengiriman memakan waktu antara 10 hingga 15 hari. Evaluasi ketepatan waktu menunjukkan hasil yang sangat memuaskan, di mana **92.2%** pesanan berhasil tiba tepat waktu atau bahkan mendahului estimasi jadwal.
+
+3. **Preferensi Metode Pembayaran**
+   Kartu kredit merupakan opsi pembayaran yang paling diminati oleh pelanggan Brasil dalam bertransaksi e-commerce, disusul oleh boleto (metode transfer atau pembayaran tunai lokal).
+
+4. **Kepuasan Pelanggan**
+   Mayoritas pelanggan merasa puas dan memberikan ulasan bintang 5. Terdapat korelasi langsung antara logistik dan kepuasan: pelanggan yang memberikan ulasan bintang 1 terbukti mengalami waktu tunggu pengiriman dua kali lebih lama dibandingkan pelanggan yang memberikan ulasan bintang 5.
 
 ## Langkah Menjalankan Proyek
 
-1. Unduh dataset Olist dari Kaggle.
-2. Ekstrak dan masukkan 9 file CSV ke dalam direktori `data/`.
-3. Buka file Jupyter Notebook menggunakan Jupyter Lab atau Jupyter Notebook.
-4. Jalankan seluruh sel secara berurutan untuk melihat hasil analisis data.
+1. Pastikan Anda memiliki Jupyter Notebook atau Jupyter Lab.
+2. Buka file `Brazilian_Ecommerce_Analysis.ipynb`.
+3. Seluruh dataset telah disatukan dalam direktori `data/`.
+4. Jalankan seluruh sel secara berurutan untuk memuat data, melakukan pembersihan, dan menghasilkan grafik analisis.
 
 ## Keterampilan yang Ditunjukkan
 
