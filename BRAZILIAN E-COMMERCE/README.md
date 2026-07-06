@@ -29,7 +29,7 @@ Berdasarkan pengolahan data, ditemukan beberapa wawasan bisnis yang signifikan:
 3. Seluruh dataset telah disatukan dalam direktori `data/`.
 4. Jalankan seluruh sel secara berurutan untuk memuat data, melakukan pembersihan, dan menghasilkan grafik analisis.
 
-## Keterampilan yang Ditunjukkan
+
 
 * Data Wrangling dan Penggabungan Data Relasional (Operasi Join dengan Pandas)
 * Feature Engineering (Ekstraksi tanggal, perhitungan metrik keterlambatan)
